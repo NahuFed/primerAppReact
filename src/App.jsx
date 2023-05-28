@@ -1,13 +1,14 @@
 import './App.css'
+import Titulos from './components/Titulos'
 
 function App() {
-   //aquji va la mayor parte de la logica
+   //aqui va la mayor parte de la logica
+  const estado = true;
 
   return (
     <>
-      <h1>Ladrillitos</h1>
-      {/* comentario dentro del html */}
-      <h2>Marcas</h2>
+    <Titulos tituloNuevo='Este titulo es generado usando props' estadoNuevo = {estado}/>
+    {/* <Titulos></Titulos> */}
     </>
   )
 }
