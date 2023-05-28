@@ -1,11 +1,14 @@
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+   //aquji va la mayor parte de la logica
 
   return (
-    
-      <div></div>
+    <>
+      <h1>Ladrillitos</h1>
+      {/* comentario dentro del html */}
+      <h2>Marcas</h2>
+    </>
   )
 }
 
