@@ -1,4 +1,5 @@
 import './App.css'
+import Contador from './components/Contador';
 import Titulos from './components/Titulos'
 
 function App() {
@@ -6,8 +7,10 @@ function App() {
   const estado = true;
 
   return (
+    
     <>
     <Titulos tituloNuevo='Este titulo es generado usando props' estadoNuevo = {estado}/>
+    <Contador></Contador>
     {/* <Titulos></Titulos> */}
     </>
   )
